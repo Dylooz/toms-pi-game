@@ -1,0 +1,8 @@
+Hi.
+To use the pi game download the text file and copy the code directly into a new shell.
+
+To create a new account you have to use the admin password. It is 'admin'.
+
+Have fun and upload the text file whenever you get a new high score for the group.
+
+Btw, copy pasting pi doesn't work in this game.
