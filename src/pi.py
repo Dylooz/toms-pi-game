@@ -1,5 +1,14 @@
 import random
 import time
+import subprocess
+
+##install keyboard##
+try:
+    import keyboard
+except ModuleNotFoundError:
+    subprocess.call("pip3 install keyboard")
+finally:
+    print("Module installed")
 
 def fwrite(name, text):
     with open(name, "a+") as foo:
@@ -60,7 +69,7 @@ if pwordcorr and userfound:
 else:
     score = 0
 
-import keyboard
+
 k = True
 while k:
     game = True
