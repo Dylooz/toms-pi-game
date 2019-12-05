@@ -111,7 +111,7 @@ while k:
             score = digit - 2
 
 time.sleep(1)
-print ("Your best score is:",score)
+print("Your best score is:",score)
        
 if pwordcorr and userfound:
     fwrite("piGameInfo.txt", [[name+","+pwd+","+str(score)+"\n"]])
